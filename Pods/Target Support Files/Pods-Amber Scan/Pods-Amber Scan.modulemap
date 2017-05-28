@@ -1,0 +1,6 @@
+framework module Pods_Amber_Scan {
+  umbrella header "Pods-Amber Scan-umbrella.h"
+
+  export *
+  module * { export * }
+}
