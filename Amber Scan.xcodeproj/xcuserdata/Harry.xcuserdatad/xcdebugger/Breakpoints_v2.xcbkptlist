@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Amber Scan/TakeAPicViewController.swift"
-            timestampString = "515960225.992457"
+            timestampString = "519260058.008996"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>

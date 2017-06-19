@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A0D9A911EB64B9100F72B0B /* APIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9A901EB64B9100F72B0B /* APIWrapper.swift */; };
+		4A2D8C941EF1932000AF08D5 /* communications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D8C931EF1932000AF08D5 /* communications.swift */; };
 		4A3497531EBA852D00A18388 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4A3497521EBA852D00A18388 /* Podfile */; };
 		4A42A3781E96B94E001ED9B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A3771E96B94E001ED9B1 /* MainViewController.swift */; };
 		4A42A37A1E96B973001ED9B1 /* ReportASightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */; };
@@ -18,13 +19,15 @@
 		4A7759EC1E91EC0500A332FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7759EA1E91EC0500A332FB /* Main.storyboard */; };
 		4A7759EF1E91EC0500A332FB /* Amber_Scan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A7759ED1E91EC0500A332FB /* Amber_Scan.xcdatamodeld */; };
 		4A7759F11E91EC0500A332FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7759F01E91EC0500A332FB /* Assets.xcassets */; };
-		4A7759F41E91EC0500A332FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7759F21E91EC0500A332FB /* LaunchScreen.storyboard */; };
+		4A78CD5E1EF34A56002E15A1 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A78CD5D1EF34A56002E15A1 /* global.swift */; };
+		4AC45F071EDC687D002754FD /* restfulTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC45F061EDC687D002754FD /* restfulTesting.swift */; };
 		D492DAF140B7754447BF6A6B /* Pods_Amber_Scan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A050BF5665A2AD98B3226A /* Pods_Amber_Scan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49A050BF5665A2AD98B3226A /* Pods_Amber_Scan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amber_Scan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0D9A901EB64B9100F72B0B /* APIWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIWrapper.swift; path = Controllers.xcassets/APIWrapper.swift; sourceTree = "<group>"; };
+		4A2D8C931EF1932000AF08D5 /* communications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = communications.swift; sourceTree = "<group>"; };
 		4A3497521EBA852D00A18388 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		4A42A3771E96B94E001ED9B1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportASightingViewController.swift; sourceTree = "<group>"; };
@@ -36,8 +39,9 @@
 		4A7759EB1E91EC0500A332FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A7759EE1E91EC0500A332FB /* Amber_Scan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amber_Scan.xcdatamodel; sourceTree = "<group>"; };
 		4A7759F01E91EC0500A332FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4A7759F31E91EC0500A332FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7759F51E91EC0500A332FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A78CD5D1EF34A56002E15A1 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		4AC45F061EDC687D002754FD /* restfulTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restfulTesting.swift; sourceTree = "<group>"; };
 		60293FF30AFAF66BEF834FA1 /* Pods-Amber Scan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.release.xcconfig"; sourceTree = "<group>"; };
 		9C79DF488B7F181F9AFF74AC /* Pods-Amber Scan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,12 +98,14 @@
 				4A0D9A8F1EB64AB600F72B0B /* Controllers */,
 				4A7759E61E91EC0500A332FB /* AppDelegate.swift */,
 				4A7759EA1E91EC0500A332FB /* Main.storyboard */,
+				4AC45F061EDC687D002754FD /* restfulTesting.swift */,
+				4A78CD5D1EF34A56002E15A1 /* global.swift */,
+				4A2D8C931EF1932000AF08D5 /* communications.swift */,
 				4A53C4DB1E9F20310019508D /* SubmissionViewController.swift */,
 				4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */,
 				4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */,
 				4A7759F01E91EC0500A332FB /* Assets.xcassets */,
 				4A3497521EBA852D00A18388 /* Podfile */,
-				4A7759F21E91EC0500A332FB /* LaunchScreen.storyboard */,
 				4A7759F51E91EC0500A332FB /* Info.plist */,
 				4A7759ED1E91EC0500A332FB /* Amber_Scan.xcdatamodeld */,
 				4A42A3771E96B94E001ED9B1 /* MainViewController.swift */,
@@ -180,7 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7759F41E91EC0500A332FB /* LaunchScreen.storyboard in Resources */,
 				4A7759F11E91EC0500A332FB /* Assets.xcassets in Resources */,
 				4A3497531EBA852D00A18388 /* Podfile in Resources */,
 				4A7759EC1E91EC0500A332FB /* Main.storyboard in Resources */,
@@ -244,7 +249,10 @@
 			files = (
 				4A42A37A1E96B973001ED9B1 /* ReportASightingViewController.swift in Sources */,
 				4A7759EF1E91EC0500A332FB /* Amber_Scan.xcdatamodeld in Sources */,
+				4A2D8C941EF1932000AF08D5 /* communications.swift in Sources */,
 				4A7759E71E91EC0500A332FB /* AppDelegate.swift in Sources */,
+				4AC45F071EDC687D002754FD /* restfulTesting.swift in Sources */,
+				4A78CD5E1EF34A56002E15A1 /* global.swift in Sources */,
 				4A53C4DC1E9F20310019508D /* SubmissionViewController.swift in Sources */,
 				4A42A37C1E96B986001ED9B1 /* ActiveAlertsViewController.swift in Sources */,
 				4A69BDF51E96C5DE009E9867 /* TakeAPicViewController.swift in Sources */,
@@ -262,14 +270,6 @@
 				4A7759EB1E91EC0500A332FB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4A7759F21E91EC0500A332FB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A7759F31E91EC0500A332FB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

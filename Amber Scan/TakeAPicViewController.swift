@@ -10,20 +10,19 @@ import UIKit
 import Alamofire
 
 
-class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    var name_spotting  : String = String()
-    var street_spotting  : String = String()
-    var city_spotting  : String = String()
-    var zipcode_spotting  : String = String()
-    var contact_spotting  : String = String()
+class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
+    
+
     
     @IBOutlet var pickedImage: UIImageView!
+    
+    @IBOutlet var displaySpotting: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad();
         //self.view endEditing:YES;
         // Do any additional setup after loading the view, typically from a nib.
-        
+        displaySpotting.text = "Id: " + globalData.spottingId
     }
     
     override func didReceiveMemoryWarning() {
@@ -61,16 +60,6 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     
     
-    @IBOutlet var s_Street: UITextField!
-    @IBOutlet var s_Name: UITextField!
-    @IBOutlet var s_City: UITextField!
-    @IBOutlet var s_Zip: UITextField!
-    @IBOutlet var s_ContactNumber: UITextField!
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        self.view.endEditing(true)
-        return false
-    }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!)
     {
@@ -78,4 +67,29 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
         self.dismiss(animated: true, completion: nil);
     }
 
+    @IBAction func submitSpotting(_ sender: Any) {
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
