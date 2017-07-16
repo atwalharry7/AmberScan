@@ -28,8 +28,15 @@ class ReportASightingViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //If the user clicks outside of a text field, dismiss keyboard
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ReportASightingViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
-
+    //Funciton called whenever user taps outside of text field
+    func dismissKeyboard ()
+    {
+        view.endEditing(true)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -58,8 +65,7 @@ class ReportASightingViewController: UIViewController {
                           "contact":"9995555555"]
         
         // TODO Need to encapsulate this code with a delegate to move the user onto the next screen while the spotting is being sent off in the background.
-        let comModue = communications()
-        spottingID = comModue.submitSpotting(data: dataPacket)
+        spottingID = communications.submitSpotting(data: dataPacket)
         
         //Take the spotting id and keep it as a class variable.
         print("\n The spotting id returned is: \(spottingID) \n ")

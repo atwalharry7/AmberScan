@@ -18,22 +18,16 @@ import Foundation
 
 class restfulTesting: UIViewController {
     var counter = 0
-    let apiAddress = "http://localhost:3030"
     //Text Field to display contents of the API Packet
-    @IBOutlet var apiResults: UITextView!
+    @IBOutlet var d_version: UITextField!
 
-    @IBAction func submitAPIRequest(_ sender: Any) {
-        
-        let versionNumber = communications.fetchVersion()
-        let displayText = "Current Count = \(counter) & Version = \(versionNumber)"
-        apiResults.text = displayText
-        counter += 1
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        apiResults.isEditable = false
-        apiResults.isScrollEnabled = true
+        print("Loaded Restful testing module")
+        print("The global api address is: \(globalData.apiAddress)")
+        
         
         //Testing API RESTful requesting
         //let data = fetchSpotting(id:"591a089a95c1d27e8ed08974")
@@ -50,5 +44,15 @@ class restfulTesting: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func updateSwitch(_ sender: Any) {
+        print("Attempting to fetch version ")
+        communications.getVersion(completion: updateVersionNumber(versionNumber: ))
+    }
+    //Function is used as a callback function to update the text field and global version numbers
+    func updateVersionNumber(versionNumber : String) -> Void
+    {
+        globalData.version = versionNumber
+        d_version.text = versionNumber
+    }
     
 }

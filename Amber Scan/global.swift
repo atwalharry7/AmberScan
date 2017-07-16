@@ -12,12 +12,23 @@ class Main {
     var version :String
     var spottingId: String
     var apiAddress: String
+    var results: String
+    var segueSwitch: Double
+    //var comms : communications
+    
     init(version:String, spottingId:String, apiAddress:String) {
         self.version = version
         self.spottingId = spottingId
         self.apiAddress = apiAddress
+        self.results = "Null"
+        self.segueSwitch = 0.0
+    }
+    
+    func updateVersionNumber(versionNumber : String) -> Void
+    {
+       self.version = versionNumber
     }
 }
 
-var retrievedVersion = communications.fetchVersion()
-var globalData = Main(version:retrievedVersion, spottingId:"0", apiAddress:"http://localhost:3030")
+var globalData = Main(version:"0.0.0", spottingId:"0", apiAddress:"https://faceaginggroup.com/amberscan")
+

@@ -13,6 +13,8 @@
 		4A42A3781E96B94E001ED9B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A3771E96B94E001ED9B1 /* MainViewController.swift */; };
 		4A42A37A1E96B973001ED9B1 /* ReportASightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */; };
 		4A42A37C1E96B986001ED9B1 /* ActiveAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */; };
+		4A4CF68D1EF9BD2D003E1483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CF68C1EF9BD2D003E1483 /* Images.xcassets */; };
+		4A4CF6911EF9C041003E1483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CF6901EF9C041003E1483 /* LaunchScreen.storyboard */; };
 		4A53C4DC1E9F20310019508D /* SubmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A53C4DB1E9F20310019508D /* SubmissionViewController.swift */; };
 		4A69BDF51E96C5DE009E9867 /* TakeAPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69BDF41E96C5DE009E9867 /* TakeAPicViewController.swift */; };
 		4A7759E71E91EC0500A332FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7759E61E91EC0500A332FB /* AppDelegate.swift */; };
@@ -32,6 +34,8 @@
 		4A42A3771E96B94E001ED9B1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportASightingViewController.swift; sourceTree = "<group>"; };
 		4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveAlertsViewController.swift; sourceTree = "<group>"; };
+		4A4CF68C1EF9BD2D003E1483 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A4CF6901EF9C041003E1483 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A53C4DB1E9F20310019508D /* SubmissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionViewController.swift; sourceTree = "<group>"; };
 		4A69BDF41E96C5DE009E9867 /* TakeAPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeAPicViewController.swift; sourceTree = "<group>"; };
 		4A7759E31E91EC0500A332FB /* Amber Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amber Scan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,10 +101,12 @@
 			children = (
 				4A0D9A8F1EB64AB600F72B0B /* Controllers */,
 				4A7759E61E91EC0500A332FB /* AppDelegate.swift */,
+				4A2D8C931EF1932000AF08D5 /* communications.swift */,
 				4A7759EA1E91EC0500A332FB /* Main.storyboard */,
+				4A4CF6901EF9C041003E1483 /* LaunchScreen.storyboard */,
+				4A4CF68C1EF9BD2D003E1483 /* Images.xcassets */,
 				4AC45F061EDC687D002754FD /* restfulTesting.swift */,
 				4A78CD5D1EF34A56002E15A1 /* global.swift */,
-				4A2D8C931EF1932000AF08D5 /* communications.swift */,
 				4A53C4DB1E9F20310019508D /* SubmissionViewController.swift */,
 				4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */,
 				4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */,
@@ -188,6 +194,8 @@
 			files = (
 				4A7759F11E91EC0500A332FB /* Assets.xcassets in Resources */,
 				4A3497531EBA852D00A18388 /* Podfile in Resources */,
+				4A4CF68D1EF9BD2D003E1483 /* Images.xcassets in Resources */,
+				4A4CF6911EF9C041003E1483 /* LaunchScreen.storyboard in Resources */,
 				4A7759EC1E91EC0500A332FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

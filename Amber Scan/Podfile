@@ -1,6 +1,13 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target 'MyApp' do
+target 'Amber Scan' do
 pod 'SwiftyJSON'
+
+platform : ios, '10.0'
+use_frameworks!
+
+target 'Amber Scan' do
+pod 'Alamofire', '~> 4.4'
+
 end
