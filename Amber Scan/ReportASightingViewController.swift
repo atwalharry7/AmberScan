@@ -26,6 +26,7 @@ class ReportASightingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = globalData.backgroundColor
         // Do any additional setup after loading the view.
         
         //If the user clicks outside of a text field, dismiss keyboard

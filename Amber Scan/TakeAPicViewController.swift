@@ -19,6 +19,7 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
     
     override func viewDidLoad() {
         super.viewDidLoad();
+        self.view.backgroundColor = globalData.backgroundColor
         //self.view endEditing:YES;
         // Do any additional setup after loading the view, typically from a nib.
         displaySpotting.text = "Id: " + globalData.spottingId

@@ -18,6 +18,7 @@ class SubmissionViewController: UIViewController {
     var resultCounter = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = globalData.backgroundColor
         // Do any additional setup after loading the view.
         if(resultCounter == 0){
             self.ROCResults.text = "Processing"

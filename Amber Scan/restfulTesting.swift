@@ -24,6 +24,7 @@ class restfulTesting: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = globalData.backgroundColor
         // Do any additional setup after loading the view.
         print("Loaded Restful testing module")
         print("The global api address is: \(globalData.apiAddress)")
