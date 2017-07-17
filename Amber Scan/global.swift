@@ -14,6 +14,7 @@ class Main {
     var apiAddress: String
     var results: String
     var segueSwitch: Double
+    var rocResults: String
     //var comms : communications
     
     init(version:String, spottingId:String, apiAddress:String) {
@@ -22,6 +23,7 @@ class Main {
         self.apiAddress = apiAddress
         self.results = "Null"
         self.segueSwitch = 0.0
+        self.rocResults = ""
     }
     
     func updateVersionNumber(versionNumber : String) -> Void

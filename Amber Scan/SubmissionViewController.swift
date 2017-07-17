@@ -9,18 +9,53 @@
 import UIKit
 
 class SubmissionViewController: UIViewController {
+    @IBOutlet weak var ROCResults: UITextView!
     
+    @IBAction func refreshButton(_ sender: Any) {
+        parseResults();
+    }
+    
+    var resultCounter = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        if(resultCounter == 0){
+            self.ROCResults.text = "Processing"
+        }
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
+    
+    // Take the results from photo submission and display them.
+    func parseResults () {
+        // While the results have not come in, display message
+        if(globalData.rocResults == ""){
+            if(resultCounter == 0) {
+                self.ROCResults.text = "Still Processing"
+                resultCounter += 1
+            }
+            else {
+                var text = "Processing"
+                for _ in 1...resultCounter{
+                    text += "."
+                }
+                self.ROCResults.text = text
+                resultCounter += 1
+            }
+        }
+        else{
+            self.ROCResults.text = globalData.rocResults
+        }
+
+    }
+
+    
+    
+    
     /*
     // MARK: - Navigation
 

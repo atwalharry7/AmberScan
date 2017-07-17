@@ -86,16 +86,11 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
     {
         print("AlamoFire submit Image called")
         print("\n -------------------------------- \n")
-        //var submissionCode = "Unsubmitted"
-        //var submissionURL = globalData.apiAddress + "/api/upload"
+    
         let submissionURL = globalData.apiAddress + "/api/upload"
         let imageName = globalData.spottingId.description + ".png"
         //Convert name to type data
         let imageNameData = imageName.data(using: String.Encoding.utf8, allowLossyConversion: false)!
-        
-        //Prepare image for transmission
-        //let image: Data = subImage as! Data
-        //let dataDecoded : Data = Data(base64Encoded: image, options: [])!
         
         let image = UIImagePNGRepresentation(subImage)
         
@@ -111,10 +106,13 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
                 switch encodingResult {
                 case .success(let upload, _, _):
                     upload.responseJSON { response in
-                        print("Successful request, code: \(upload.response?.statusCode ?? 0)")
-                        debugPrint(response)
-//                        print("Response to image upload \(response.debugDescription)")
-                        
+                        //to get JSON return value
+                        if let result = response.result.value {
+                            let JSON = result as! [String: Any?]
+                            print("JSON Response")
+                            globalData.rocResults = self.prettyPrint(with: JSON)
+                            print(globalData.rocResults)
+                        }
                     }
                     // Update Progress bar
                     upload.uploadProgress { progress in
@@ -125,19 +123,21 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
                             callback(String(progress.fractionCompleted))
                         }
                     }
-                    
                 case .failure(let encodingError):
-                    print("Error 8: The request is: ")
+                    print("\nError 8: The request is: \n")
                     print(encodingError)
                 
                 }
             }
-           
         )
     }
     
     
-    
+    func prettyPrint(with json: [String:Any]) -> String{
+        let data = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
+        let string = NSString(data: data, encoding: String.Encoding.utf8.rawValue)
+        return string as! String
+    }
     
     
     
