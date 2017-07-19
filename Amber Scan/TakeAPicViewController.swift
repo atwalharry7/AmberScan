@@ -68,7 +68,8 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
         self.dismiss(animated: true, completion: nil);
     }
 
-    @IBAction func submitSpotting(_ sender: Any) {
+    @IBAction func submitSpotting(_ sender: Any)
+    {
         
         guard let submissionVar = pickedImage.image else {
             return
@@ -134,7 +135,8 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     
     
-    func prettyPrint(with json: [String:Any]) -> String{
+    func prettyPrint(with json: [String:Any]) -> String
+    {
         let data = try! JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
         let string = NSString(data: data, encoding: String.Encoding.utf8.rawValue)
         return string as! String

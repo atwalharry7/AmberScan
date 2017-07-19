@@ -164,7 +164,7 @@
 				TargetAttributes = {
 					4A7759E21E91EC0500A332FB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PUVE8AV9GJ;
+						DevelopmentTeam = 36856Q9ML8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -381,13 +381,16 @@
 			baseConfigurationReference = 9C79DF488B7F181F9AFF74AC /* Pods-Amber Scan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PUVE8AV9GJ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harleen Atwal (V27XC2RR2S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harleen Atwal (V27XC2RR2S)";
+				DEVELOPMENT_TEAM = 36856Q9ML8;
 				INFOPLIST_FILE = "Amber Scan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "atwalharry.Amber-Scan";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atwalharry.Amber-Scan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -396,13 +399,16 @@
 			baseConfigurationReference = 60293FF30AFAF66BEF834FA1 /* Pods-Amber Scan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PUVE8AV9GJ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harleen Atwal (V27XC2RR2S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harleen Atwal (V27XC2RR2S)";
+				DEVELOPMENT_TEAM = 36856Q9ML8;
 				INFOPLIST_FILE = "Amber Scan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "atwalharry.Amber-Scan";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atwalharry.Amber-Scan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
