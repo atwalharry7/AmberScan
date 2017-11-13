@@ -9,13 +9,16 @@
 import UIKit
 
 class SubmissionViewController: UIViewController {
+    var resultCounter = 0
+    
+    
     @IBOutlet weak var ROCResults: UITextView!
     
     @IBAction func refreshButton(_ sender: Any) {
         parseResults();
     }
     
-    var resultCounter = 0
+    // Do any additional loading you need here.
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = globalData.backgroundColor
@@ -34,7 +37,7 @@ class SubmissionViewController: UIViewController {
     // Take the results from photo submission and display them.
     func parseResults () {
         // While the results have not come in, display message
-        if(globalData.rocResults == ""){
+        if(globalData.submissionResults == ""){
             if(resultCounter == 0) {
                 self.ROCResults.text = "Still Processing"
                 resultCounter += 1
@@ -49,7 +52,7 @@ class SubmissionViewController: UIViewController {
             }
         }
         else{
-            self.ROCResults.text = globalData.rocResults
+            self.ROCResults.text = globalData.submissionResults
         }
 
     }

@@ -7,64 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0378341FB904CD00BD578C /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0378331FB904CD00BD578C /* myCell.swift */; };
+		4A03784D1FB908FA00BD578C /* Angella Russel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378411FB908F900BD578C /* Angella Russel.jpg */; };
+		4A03784E1FB908FA00BD578C /* Earl Wilson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378421FB908F900BD578C /* Earl Wilson.jpg */; };
+		4A03784F1FB908FA00BD578C /* Zhi Ying Zhen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378431FB908F900BD578C /* Zhi Ying Zhen.jpg */; };
+		4A0378501FB908FA00BD578C /* Adrionna Dull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378441FB908F900BD578C /* Adrionna Dull.jpg */; };
+		4A0378511FB908FA00BD578C /* Imahni Russell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378451FB908F900BD578C /* Imahni Russell.jpg */; };
+		4A0378521FB908FA00BD578C /* Jeffrey Reynolds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378461FB908F900BD578C /* Jeffrey Reynolds.jpg */; };
+		4A0378531FB908FA00BD578C /* Elias Russell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378471FB908F900BD578C /* Elias Russell.jpg */; };
+		4A0378541FB908FA00BD578C /* Mariamu William.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378481FB908F900BD578C /* Mariamu William.jpg */; };
+		4A0378551FB908FA00BD578C /* Robin Strother.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A0378491FB908F900BD578C /* Robin Strother.jpg */; };
+		4A0378561FB908FA00BD578C /* Machaela Hardie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A03784A1FB908F900BD578C /* Machaela Hardie.jpg */; };
+		4A0378571FB908FA00BD578C /* Tyrese Hill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A03784B1FB908FA00BD578C /* Tyrese Hill.jpg */; };
+		4A0378581FB908FA00BD578C /* Elyana Russell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A03784C1FB908FA00BD578C /* Elyana Russell.jpg */; };
 		4A0D9A911EB64B9100F72B0B /* APIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9A901EB64B9100F72B0B /* APIWrapper.swift */; };
-		4A2CF1871F5DCAFC00F1D70C /* resultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2CF1861F5DCAFC00F1D70C /* resultsController.swift */; };
 		4A2CF1891F5DCC0300F1D70C /* controllerTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2CF1881F5DCC0300F1D70C /* controllerTemplate.swift */; };
 		4A2D8C941EF1932000AF08D5 /* communications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D8C931EF1932000AF08D5 /* communications.swift */; };
+		4A2DF9E51FA68D970000C0A6 /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DF9E41FA68D970000C0A6 /* resultsViewController.swift */; };
 		4A3497531EBA852D00A18388 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4A3497521EBA852D00A18388 /* Podfile */; };
+		4A35BDCA1FA64DE800FC84D3 /* pageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35BDC91FA64DE800FC84D3 /* pageViewController.swift */; };
 		4A42A3781E96B94E001ED9B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A3771E96B94E001ED9B1 /* MainViewController.swift */; };
 		4A42A37A1E96B973001ED9B1 /* ReportASightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */; };
 		4A42A37C1E96B986001ED9B1 /* ActiveAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */; };
 		4A4CF68D1EF9BD2D003E1483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CF68C1EF9BD2D003E1483 /* Images.xcassets */; };
 		4A4CF6911EF9C041003E1483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CF6901EF9C041003E1483 /* LaunchScreen.storyboard */; };
 		4A53C4DC1E9F20310019508D /* SubmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A53C4DB1E9F20310019508D /* SubmissionViewController.swift */; };
-		4A55FDE41FBA4D1D00B058D7 /* Tyrese Hill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDD91FBA4D1C00B058D7 /* Tyrese Hill.jpg */; };
-		4A55FDE51FBA4D1D00B058D7 /* Zhi Ying Zhen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDDA1FBA4D1C00B058D7 /* Zhi Ying Zhen.jpg */; };
-		4A55FDE61FBA4D1D00B058D7 /* Robin Strother.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDDB1FBA4D1D00B058D7 /* Robin Strother.jpg */; };
-		4A55FDE71FBA4D1D00B058D7 /* Adrionna Dull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDDC1FBA4D1D00B058D7 /* Adrionna Dull.jpg */; };
-		4A55FDE81FBA4D1D00B058D7 /* Angella Russel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDDD1FBA4D1D00B058D7 /* Angella Russel.jpg */; };
-		4A55FDE91FBA4D1D00B058D7 /* Earl Wilson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDDE1FBA4D1D00B058D7 /* Earl Wilson.jpg */; };
-		4A55FDEA1FBA4D1D00B058D7 /* Elias Russell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDDF1FBA4D1D00B058D7 /* Elias Russell.jpg */; };
-		4A55FDEB1FBA4D1D00B058D7 /* Machaela Hardie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDE01FBA4D1D00B058D7 /* Machaela Hardie.jpg */; };
-		4A55FDEC1FBA4D1D00B058D7 /* Jeffrey Reynolds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDE11FBA4D1D00B058D7 /* Jeffrey Reynolds.jpg */; };
-		4A55FDED1FBA4D1D00B058D7 /* Elyana Russell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDE21FBA4D1D00B058D7 /* Elyana Russell.jpg */; };
-		4A55FDEE1FBA4D1D00B058D7 /* Mariamu William.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A55FDE31FBA4D1D00B058D7 /* Mariamu William.jpg */; };
-		4A55FDF01FBA4D3100B058D7 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55FDEF1FBA4D3100B058D7 /* myCell.swift */; };
 		4A69BDF51E96C5DE009E9867 /* TakeAPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69BDF41E96C5DE009E9867 /* TakeAPicViewController.swift */; };
 		4A7759E71E91EC0500A332FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7759E61E91EC0500A332FB /* AppDelegate.swift */; };
 		4A7759EC1E91EC0500A332FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7759EA1E91EC0500A332FB /* Main.storyboard */; };
 		4A7759EF1E91EC0500A332FB /* Amber_Scan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A7759ED1E91EC0500A332FB /* Amber_Scan.xcdatamodeld */; };
 		4A7759F11E91EC0500A332FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7759F01E91EC0500A332FB /* Assets.xcassets */; };
 		4A78CD5E1EF34A56002E15A1 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A78CD5D1EF34A56002E15A1 /* global.swift */; };
+		4AADE30A1FA6D763008F53F6 /* rankOneResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADE3091FA6D763008F53F6 /* rankOneResults.swift */; };
+		4AADE30E1FA6D7B2008F53F6 /* customResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADE30D1FA6D7B2008F53F6 /* customResults.swift */; };
+		4AADE3101FA6E095008F53F6 /* svnResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADE30F1FA6E094008F53F6 /* svnResults.swift */; };
 		4AC45F071EDC687D002754FD /* restfulTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC45F061EDC687D002754FD /* restfulTesting.swift */; };
 		D492DAF140B7754447BF6A6B /* Pods_Amber_Scan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A050BF5665A2AD98B3226A /* Pods_Amber_Scan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49A050BF5665A2AD98B3226A /* Pods_Amber_Scan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amber_Scan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0378331FB904CD00BD578C /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		4A0378411FB908F900BD578C /* Angella Russel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Angella Russel.jpg"; sourceTree = "<group>"; };
+		4A0378421FB908F900BD578C /* Earl Wilson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Earl Wilson.jpg"; sourceTree = "<group>"; };
+		4A0378431FB908F900BD578C /* Zhi Ying Zhen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zhi Ying Zhen.jpg"; sourceTree = "<group>"; };
+		4A0378441FB908F900BD578C /* Adrionna Dull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Adrionna Dull.jpg"; sourceTree = "<group>"; };
+		4A0378451FB908F900BD578C /* Imahni Russell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Imahni Russell.jpg"; sourceTree = "<group>"; };
+		4A0378461FB908F900BD578C /* Jeffrey Reynolds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jeffrey Reynolds.jpg"; sourceTree = "<group>"; };
+		4A0378471FB908F900BD578C /* Elias Russell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Elias Russell.jpg"; sourceTree = "<group>"; };
+		4A0378481FB908F900BD578C /* Mariamu William.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mariamu William.jpg"; sourceTree = "<group>"; };
+		4A0378491FB908F900BD578C /* Robin Strother.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Robin Strother.jpg"; sourceTree = "<group>"; };
+		4A03784A1FB908F900BD578C /* Machaela Hardie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Machaela Hardie.jpg"; sourceTree = "<group>"; };
+		4A03784B1FB908FA00BD578C /* Tyrese Hill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tyrese Hill.jpg"; sourceTree = "<group>"; };
+		4A03784C1FB908FA00BD578C /* Elyana Russell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Elyana Russell.jpg"; sourceTree = "<group>"; };
 		4A0D9A901EB64B9100F72B0B /* APIWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIWrapper.swift; path = Controllers.xcassets/APIWrapper.swift; sourceTree = "<group>"; };
-		4A2CF1861F5DCAFC00F1D70C /* resultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultsController.swift; sourceTree = "<group>"; };
 		4A2CF1881F5DCC0300F1D70C /* controllerTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controllerTemplate.swift; sourceTree = "<group>"; };
 		4A2D8C931EF1932000AF08D5 /* communications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = communications.swift; sourceTree = "<group>"; };
+		4A2DF9E41FA68D970000C0A6 /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
 		4A3497521EBA852D00A18388 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4A35BDC91FA64DE800FC84D3 /* pageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageViewController.swift; sourceTree = "<group>"; };
 		4A42A3771E96B94E001ED9B1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportASightingViewController.swift; sourceTree = "<group>"; };
 		4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveAlertsViewController.swift; sourceTree = "<group>"; };
 		4A4CF68C1EF9BD2D003E1483 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A4CF6901EF9C041003E1483 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A53C4DB1E9F20310019508D /* SubmissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionViewController.swift; sourceTree = "<group>"; };
-		4A55FDD91FBA4D1C00B058D7 /* Tyrese Hill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tyrese Hill.jpg"; sourceTree = "<group>"; };
-		4A55FDDA1FBA4D1C00B058D7 /* Zhi Ying Zhen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zhi Ying Zhen.jpg"; sourceTree = "<group>"; };
-		4A55FDDB1FBA4D1D00B058D7 /* Robin Strother.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Robin Strother.jpg"; sourceTree = "<group>"; };
-		4A55FDDC1FBA4D1D00B058D7 /* Adrionna Dull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Adrionna Dull.jpg"; sourceTree = "<group>"; };
-		4A55FDDD1FBA4D1D00B058D7 /* Angella Russel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Angella Russel.jpg"; sourceTree = "<group>"; };
-		4A55FDDE1FBA4D1D00B058D7 /* Earl Wilson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Earl Wilson.jpg"; sourceTree = "<group>"; };
-		4A55FDDF1FBA4D1D00B058D7 /* Elias Russell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Elias Russell.jpg"; sourceTree = "<group>"; };
-		4A55FDE01FBA4D1D00B058D7 /* Machaela Hardie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Machaela Hardie.jpg"; sourceTree = "<group>"; };
-		4A55FDE11FBA4D1D00B058D7 /* Jeffrey Reynolds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jeffrey Reynolds.jpg"; sourceTree = "<group>"; };
-		4A55FDE21FBA4D1D00B058D7 /* Elyana Russell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Elyana Russell.jpg"; sourceTree = "<group>"; };
-		4A55FDE31FBA4D1D00B058D7 /* Mariamu William.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mariamu William.jpg"; sourceTree = "<group>"; };
-		4A55FDEF1FBA4D3100B058D7 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		4A69BDF41E96C5DE009E9867 /* TakeAPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeAPicViewController.swift; sourceTree = "<group>"; };
 		4A7759E31E91EC0500A332FB /* Amber Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amber Scan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7759E61E91EC0500A332FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +80,9 @@
 		4A7759F01E91EC0500A332FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7759F51E91EC0500A332FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A78CD5D1EF34A56002E15A1 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		4AADE3091FA6D763008F53F6 /* rankOneResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rankOneResults.swift; sourceTree = "<group>"; };
+		4AADE30D1FA6D7B2008F53F6 /* customResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customResults.swift; sourceTree = "<group>"; };
+		4AADE30F1FA6E094008F53F6 /* svnResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = svnResults.swift; path = "/Users/Harry/Dropbox/Thesis/Amber Scan App/Amber Scan/svnResults.swift"; sourceTree = "<absolute>"; };
 		4AC45F061EDC687D002754FD /* restfulTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restfulTesting.swift; sourceTree = "<group>"; };
 		60293FF30AFAF66BEF834FA1 /* Pods-Amber Scan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.release.xcconfig"; sourceTree = "<group>"; };
 		9C79DF488B7F181F9AFF74AC /* Pods-Amber Scan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +108,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4A0378591FB9092400BD578C /* ActiveAmberScans */ = {
+			isa = PBXGroup;
+			children = (
+				4A0378441FB908F900BD578C /* Adrionna Dull.jpg */,
+				4A0378411FB908F900BD578C /* Angella Russel.jpg */,
+				4A0378421FB908F900BD578C /* Earl Wilson.jpg */,
+				4A0378471FB908F900BD578C /* Elias Russell.jpg */,
+				4A03784C1FB908FA00BD578C /* Elyana Russell.jpg */,
+				4A0378451FB908F900BD578C /* Imahni Russell.jpg */,
+				4A0378461FB908F900BD578C /* Jeffrey Reynolds.jpg */,
+				4A03784A1FB908F900BD578C /* Machaela Hardie.jpg */,
+				4A0378481FB908F900BD578C /* Mariamu William.jpg */,
+				4A0378491FB908F900BD578C /* Robin Strother.jpg */,
+				4A03784B1FB908FA00BD578C /* Tyrese Hill.jpg */,
+				4A0378431FB908F900BD578C /* Zhi Ying Zhen.jpg */,
+			);
+			name = ActiveAmberScans;
+			sourceTree = "<group>";
+		};
 		4A0D9A8F1EB64AB600F72B0B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,24 +134,6 @@
 				4A2CF1881F5DCC0300F1D70C /* controllerTemplate.swift */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		4A55FDD81FBA4D0300B058D7 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				4A55FDDC1FBA4D1D00B058D7 /* Adrionna Dull.jpg */,
-				4A55FDDD1FBA4D1D00B058D7 /* Angella Russel.jpg */,
-				4A55FDDE1FBA4D1D00B058D7 /* Earl Wilson.jpg */,
-				4A55FDDF1FBA4D1D00B058D7 /* Elias Russell.jpg */,
-				4A55FDE21FBA4D1D00B058D7 /* Elyana Russell.jpg */,
-				4A55FDE11FBA4D1D00B058D7 /* Jeffrey Reynolds.jpg */,
-				4A55FDE01FBA4D1D00B058D7 /* Machaela Hardie.jpg */,
-				4A55FDE31FBA4D1D00B058D7 /* Mariamu William.jpg */,
-				4A55FDDB1FBA4D1D00B058D7 /* Robin Strother.jpg */,
-				4A55FDD91FBA4D1C00B058D7 /* Tyrese Hill.jpg */,
-				4A55FDDA1FBA4D1C00B058D7 /* Zhi Ying Zhen.jpg */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 		4A7759DA1E91EC0500A332FB = {
@@ -146,14 +157,18 @@
 		4A7759E51E91EC0500A332FB /* Amber Scan */ = {
 			isa = PBXGroup;
 			children = (
-				4A55FDD81FBA4D0300B058D7 /* Images */,
 				4A0D9A8F1EB64AB600F72B0B /* Controllers */,
 				4A7759E61E91EC0500A332FB /* AppDelegate.swift */,
-				4A2CF1861F5DCAFC00F1D70C /* resultsController.swift */,
+				4AADE30F1FA6E094008F53F6 /* svnResults.swift */,
 				4A2D8C931EF1932000AF08D5 /* communications.swift */,
-				4A55FDEF1FBA4D3100B058D7 /* myCell.swift */,
 				4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */,
+				4A0378591FB9092400BD578C /* ActiveAmberScans */,
 				4A7759EA1E91EC0500A332FB /* Main.storyboard */,
+				4A0378331FB904CD00BD578C /* myCell.swift */,
+				4A35BDC91FA64DE800FC84D3 /* pageViewController.swift */,
+				4A2DF9E41FA68D970000C0A6 /* resultsViewController.swift */,
+				4AADE3091FA6D763008F53F6 /* rankOneResults.swift */,
+				4AADE30D1FA6D7B2008F53F6 /* customResults.swift */,
 				4A4CF6901EF9C041003E1483 /* LaunchScreen.storyboard */,
 				4A4CF68C1EF9BD2D003E1483 /* Images.xcassets */,
 				4AC45F061EDC687D002754FD /* restfulTesting.swift */,
@@ -243,21 +258,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7759F11E91EC0500A332FB /* Assets.xcassets in Resources */,
-				4A55FDE51FBA4D1D00B058D7 /* Zhi Ying Zhen.jpg in Resources */,
+				4A03784D1FB908FA00BD578C /* Angella Russel.jpg in Resources */,
 				4A3497531EBA852D00A18388 /* Podfile in Resources */,
+				4A0378571FB908FA00BD578C /* Tyrese Hill.jpg in Resources */,
+				4A0378541FB908FA00BD578C /* Mariamu William.jpg in Resources */,
+				4A0378581FB908FA00BD578C /* Elyana Russell.jpg in Resources */,
+				4A0378551FB908FA00BD578C /* Robin Strother.jpg in Resources */,
 				4A4CF68D1EF9BD2D003E1483 /* Images.xcassets in Resources */,
+				4A03784E1FB908FA00BD578C /* Earl Wilson.jpg in Resources */,
+				4A0378561FB908FA00BD578C /* Machaela Hardie.jpg in Resources */,
+				4A0378521FB908FA00BD578C /* Jeffrey Reynolds.jpg in Resources */,
+				4A0378501FB908FA00BD578C /* Adrionna Dull.jpg in Resources */,
 				4A4CF6911EF9C041003E1483 /* LaunchScreen.storyboard in Resources */,
-				4A55FDE71FBA4D1D00B058D7 /* Adrionna Dull.jpg in Resources */,
-				4A55FDEC1FBA4D1D00B058D7 /* Jeffrey Reynolds.jpg in Resources */,
-				4A55FDE91FBA4D1D00B058D7 /* Earl Wilson.jpg in Resources */,
+				4A0378531FB908FA00BD578C /* Elias Russell.jpg in Resources */,
+				4A0378511FB908FA00BD578C /* Imahni Russell.jpg in Resources */,
 				4A7759EC1E91EC0500A332FB /* Main.storyboard in Resources */,
-				4A55FDEA1FBA4D1D00B058D7 /* Elias Russell.jpg in Resources */,
-				4A55FDE81FBA4D1D00B058D7 /* Angella Russel.jpg in Resources */,
-				4A55FDED1FBA4D1D00B058D7 /* Elyana Russell.jpg in Resources */,
-				4A55FDEB1FBA4D1D00B058D7 /* Machaela Hardie.jpg in Resources */,
-				4A55FDEE1FBA4D1D00B058D7 /* Mariamu William.jpg in Resources */,
-				4A55FDE61FBA4D1D00B058D7 /* Robin Strother.jpg in Resources */,
-				4A55FDE41FBA4D1D00B058D7 /* Tyrese Hill.jpg in Resources */,
+				4A03784F1FB908FA00BD578C /* Zhi Ying Zhen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,13 +286,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amber Scan-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B0EA44D4774C76DECE0DE87C /* [CP] Embed Pods Frameworks */ = {
@@ -285,9 +304,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -316,20 +338,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2CF1871F5DCAFC00F1D70C /* resultsController.swift in Sources */,
 				4A42A37A1E96B973001ED9B1 /* ReportASightingViewController.swift in Sources */,
+				4A0378341FB904CD00BD578C /* myCell.swift in Sources */,
 				4A7759EF1E91EC0500A332FB /* Amber_Scan.xcdatamodeld in Sources */,
+				4A35BDCA1FA64DE800FC84D3 /* pageViewController.swift in Sources */,
+				4AADE30E1FA6D7B2008F53F6 /* customResults.swift in Sources */,
+				4A2DF9E51FA68D970000C0A6 /* resultsViewController.swift in Sources */,
 				4A2D8C941EF1932000AF08D5 /* communications.swift in Sources */,
 				4A7759E71E91EC0500A332FB /* AppDelegate.swift in Sources */,
-				4A55FDF01FBA4D3100B058D7 /* myCell.swift in Sources */,
 				4AC45F071EDC687D002754FD /* restfulTesting.swift in Sources */,
 				4A78CD5E1EF34A56002E15A1 /* global.swift in Sources */,
 				4A53C4DC1E9F20310019508D /* SubmissionViewController.swift in Sources */,
+				4AADE30A1FA6D763008F53F6 /* rankOneResults.swift in Sources */,
 				4A42A37C1E96B986001ED9B1 /* ActiveAlertsViewController.swift in Sources */,
 				4A2CF1891F5DCC0300F1D70C /* controllerTemplate.swift in Sources */,
 				4A69BDF51E96C5DE009E9867 /* TakeAPicViewController.swift in Sources */,
 				4A0D9A911EB64B9100F72B0B /* APIWrapper.swift in Sources */,
 				4A42A3781E96B94E001ED9B1 /* MainViewController.swift in Sources */,
+				4AADE3101FA6E095008F53F6 /* svnResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

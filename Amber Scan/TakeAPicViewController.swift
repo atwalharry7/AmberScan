@@ -70,14 +70,15 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
 
     @IBAction func submitSpotting(_ sender: Any)
     {
-        
+    
         guard let submissionVar = pickedImage.image else {
             return
         }
         //let submissionVar = pickedImage.image!
         submitImage(subImage: submissionVar, imageID: globalData.spottingId, callback: { str in
             print(str)
-            self.performSegue(withIdentifier: "submitImage", sender: self)
+            self.performSegue(withIdentifier: "resultsSegue", sender: self)
+            //self.performSegue(withIdentifier: "submitImage", sender: self)
         })
         
 
@@ -112,8 +113,8 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
                         if let result = response.result.value {
                             let JSON = result as! [String: Any?]
                             print("JSON Response")
-                            globalData.rocResults = self.prettyPrint(with: JSON)
-                            print(globalData.rocResults)
+                            globalData.submissionResults = self.prettyPrint(with: JSON)
+                            print(globalData.submissionResults)
                         }
                     }
                     // Update Progress bar

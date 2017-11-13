@@ -17,8 +17,9 @@ class Main {
     var apiAddress: String
     var results: String
     var segueSwitch: Double
-    var rocResults: String
+    var submissionResults: String
     var backgroundColor: UIColor
+    var currentAlert: Int
 
     //var comms : communications
     
@@ -37,8 +38,12 @@ class Main {
         self.apiAddress = apiAddress
         self.results = "Null"
         self.segueSwitch = 0.0
-        self.rocResults = ""
+        self.submissionResults = ""
         self.backgroundColor = UIColor(string: "000000") //BLack
+        self.currentAlert = 0
+        
+        
+        
     }
     
     func updateVersionNumber(versionNumber : String) -> Void

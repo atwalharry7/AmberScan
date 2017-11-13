@@ -4,6 +4,7 @@ use_frameworks!
 target 'Amber Scan' do
 pod 'SwiftyJSON'
 
+
 platform : ios, '10.0'
 use_frameworks!
 
