@@ -36,6 +36,8 @@
 		4A7759EF1E91EC0500A332FB /* Amber_Scan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A7759ED1E91EC0500A332FB /* Amber_Scan.xcdatamodeld */; };
 		4A7759F11E91EC0500A332FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7759F01E91EC0500A332FB /* Assets.xcassets */; };
 		4A78CD5E1EF34A56002E15A1 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A78CD5D1EF34A56002E15A1 /* global.swift */; };
+		4ABCF54C1FBA583800825564 /* Imahni Russell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4ABCF54B1FBA583700825564 /* Imahni Russell.jpg */; };
+		4ABCF54E1FBA685800825564 /* missingChildDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABCF54D1FBA685800825564 /* missingChildDetails.swift */; };
 		4AC45F071EDC687D002754FD /* restfulTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC45F061EDC687D002754FD /* restfulTesting.swift */; };
 		D492DAF140B7754447BF6A6B /* Pods_Amber_Scan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A050BF5665A2AD98B3226A /* Pods_Amber_Scan.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +75,8 @@
 		4A7759F01E91EC0500A332FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7759F51E91EC0500A332FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A78CD5D1EF34A56002E15A1 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		4ABCF54B1FBA583700825564 /* Imahni Russell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Imahni Russell.jpg"; sourceTree = "<group>"; };
+		4ABCF54D1FBA685800825564 /* missingChildDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missingChildDetails.swift; sourceTree = "<group>"; };
 		4AC45F061EDC687D002754FD /* restfulTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restfulTesting.swift; sourceTree = "<group>"; };
 		60293FF30AFAF66BEF834FA1 /* Pods-Amber Scan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.release.xcconfig"; sourceTree = "<group>"; };
 		9C79DF488B7F181F9AFF74AC /* Pods-Amber Scan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 		4A55FDD81FBA4D0300B058D7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4ABCF54B1FBA583700825564 /* Imahni Russell.jpg */,
 				4A55FDDC1FBA4D1D00B058D7 /* Adrionna Dull.jpg */,
 				4A55FDDD1FBA4D1D00B058D7 /* Angella Russel.jpg */,
 				4A55FDDE1FBA4D1D00B058D7 /* Earl Wilson.jpg */,
@@ -154,10 +159,11 @@
 				4A55FDEF1FBA4D3100B058D7 /* myCell.swift */,
 				4A42A37B1E96B986001ED9B1 /* ActiveAlertsViewController.swift */,
 				4A7759EA1E91EC0500A332FB /* Main.storyboard */,
+				4ABCF54D1FBA685800825564 /* missingChildDetails.swift */,
+				4A78CD5D1EF34A56002E15A1 /* global.swift */,
 				4A4CF6901EF9C041003E1483 /* LaunchScreen.storyboard */,
 				4A4CF68C1EF9BD2D003E1483 /* Images.xcassets */,
 				4AC45F061EDC687D002754FD /* restfulTesting.swift */,
-				4A78CD5D1EF34A56002E15A1 /* global.swift */,
 				4A53C4DB1E9F20310019508D /* SubmissionViewController.swift */,
 				4A42A3791E96B973001ED9B1 /* ReportASightingViewController.swift */,
 				4A7759F01E91EC0500A332FB /* Assets.xcassets */,
@@ -248,6 +254,7 @@
 				4A4CF68D1EF9BD2D003E1483 /* Images.xcassets in Resources */,
 				4A4CF6911EF9C041003E1483 /* LaunchScreen.storyboard in Resources */,
 				4A55FDE71FBA4D1D00B058D7 /* Adrionna Dull.jpg in Resources */,
+				4ABCF54C1FBA583800825564 /* Imahni Russell.jpg in Resources */,
 				4A55FDEC1FBA4D1D00B058D7 /* Jeffrey Reynolds.jpg in Resources */,
 				4A55FDE91FBA4D1D00B058D7 /* Earl Wilson.jpg in Resources */,
 				4A7759EC1E91EC0500A332FB /* Main.storyboard in Resources */,
@@ -324,6 +331,7 @@
 				4A55FDF01FBA4D3100B058D7 /* myCell.swift in Sources */,
 				4AC45F071EDC687D002754FD /* restfulTesting.swift in Sources */,
 				4A78CD5E1EF34A56002E15A1 /* global.swift in Sources */,
+				4ABCF54E1FBA685800825564 /* missingChildDetails.swift in Sources */,
 				4A53C4DC1E9F20310019508D /* SubmissionViewController.swift in Sources */,
 				4A42A37C1E96B986001ED9B1 /* ActiveAlertsViewController.swift in Sources */,
 				4A2CF1891F5DCC0300F1D70C /* controllerTemplate.swift in Sources */,

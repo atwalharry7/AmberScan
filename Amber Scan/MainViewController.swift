@@ -12,9 +12,11 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = globalData.backgroundColor
+         self.view.backgroundColor = globalData.backgroundColor
 //        self.performSegue(withIdentifier: "splashLoad", sender: self)
         // Do any additional setup after loading the view.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

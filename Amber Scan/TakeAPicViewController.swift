@@ -77,7 +77,8 @@ class TakeAPicViewController: UIViewController, UIImagePickerControllerDelegate,
         //let submissionVar = pickedImage.image!
         submitImage(subImage: submissionVar, imageID: globalData.spottingId, callback: { str in
             print(str)
-            self.performSegue(withIdentifier: "resultsSegue", sender: self)
+            self.performSegue(withIdentifier: "submitFinal", sender: self)
+            //self.performSegue(withIdentifier: "resultsSegue", sender: self)
             //self.performSegue(withIdentifier: "submitImage", sender: self)
         })
         
