@@ -10,7 +10,7 @@ import UIKit
 
 class ActiveAlertsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    let missingKids:[String] = [ "Angella Russel", "Elyana Russell", "Elias Russell", "Imahni Russell", "Adrionna Dull", "Robin Strother", "Zhi Ying Zhen", "Earl Wilson", "Tyrese Hill", "Machaela Hardie", "Jeffrey Reynolds",  "Mariamu William",  ]
+    let missingKids:[String] = [ "Angella Russel", "Elyana Russell", "Elias Russell", "Imahni Russell", "Adrionna Dull", "Robin Strother", "Zhi Ying Zhen", "Earl Wilson", "Tyrese Hill", "Machaela Hardie", "Jeffrey Reynolds",  "Mariamu William", "Jeffrey Reynolds", "Karam Govens", "Nidia Balderrama"  ]
     
     @IBOutlet weak var myCollectionLayout: UICollectionView!
     

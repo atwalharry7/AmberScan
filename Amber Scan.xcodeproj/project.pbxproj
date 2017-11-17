@@ -39,6 +39,9 @@
 		4ABCF54C1FBA583800825564 /* Imahni Russell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4ABCF54B1FBA583700825564 /* Imahni Russell.jpg */; };
 		4ABCF54E1FBA685800825564 /* missingChildDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABCF54D1FBA685800825564 /* missingChildDetails.swift */; };
 		4AC45F071EDC687D002754FD /* restfulTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC45F061EDC687D002754FD /* restfulTesting.swift */; };
+		4AD9D4711FBE8FBF00B5E12C /* Jeffrey Reynolds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9D4701FBE8FBF00B5E12C /* Jeffrey Reynolds.jpg */; };
+		4AD9D4731FBE8FC600B5E12C /* Karam Govens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9D4721FBE8FC600B5E12C /* Karam Govens.jpg */; };
+		4AD9D4751FBE8FD700B5E12C /* Nidia Balderrama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9D4741FBE8FD700B5E12C /* Nidia Balderrama.jpg */; };
 		D492DAF140B7754447BF6A6B /* Pods_Amber_Scan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A050BF5665A2AD98B3226A /* Pods_Amber_Scan.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +81,9 @@
 		4ABCF54B1FBA583700825564 /* Imahni Russell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Imahni Russell.jpg"; sourceTree = "<group>"; };
 		4ABCF54D1FBA685800825564 /* missingChildDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missingChildDetails.swift; sourceTree = "<group>"; };
 		4AC45F061EDC687D002754FD /* restfulTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restfulTesting.swift; sourceTree = "<group>"; };
+		4AD9D4701FBE8FBF00B5E12C /* Jeffrey Reynolds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Jeffrey Reynolds.jpg"; path = "../../../../Downloads/Jeffrey Reynolds.jpg"; sourceTree = "<group>"; };
+		4AD9D4721FBE8FC600B5E12C /* Karam Govens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Karam Govens.jpg"; sourceTree = "<group>"; };
+		4AD9D4741FBE8FD700B5E12C /* Nidia Balderrama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nidia Balderrama.jpg"; sourceTree = "<group>"; };
 		60293FF30AFAF66BEF834FA1 /* Pods-Amber Scan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.release.xcconfig"; sourceTree = "<group>"; };
 		9C79DF488B7F181F9AFF74AC /* Pods-Amber Scan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amber Scan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amber Scan/Pods-Amber Scan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +120,9 @@
 		4A55FDD81FBA4D0300B058D7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4AD9D4741FBE8FD700B5E12C /* Nidia Balderrama.jpg */,
+				4AD9D4721FBE8FC600B5E12C /* Karam Govens.jpg */,
+				4AD9D4701FBE8FBF00B5E12C /* Jeffrey Reynolds.jpg */,
 				4ABCF54B1FBA583700825564 /* Imahni Russell.jpg */,
 				4A55FDDC1FBA4D1D00B058D7 /* Adrionna Dull.jpg */,
 				4A55FDDD1FBA4D1D00B058D7 /* Angella Russel.jpg */,
@@ -251,8 +260,10 @@
 				4A7759F11E91EC0500A332FB /* Assets.xcassets in Resources */,
 				4A55FDE51FBA4D1D00B058D7 /* Zhi Ying Zhen.jpg in Resources */,
 				4A3497531EBA852D00A18388 /* Podfile in Resources */,
+				4AD9D4751FBE8FD700B5E12C /* Nidia Balderrama.jpg in Resources */,
 				4A4CF68D1EF9BD2D003E1483 /* Images.xcassets in Resources */,
 				4A4CF6911EF9C041003E1483 /* LaunchScreen.storyboard in Resources */,
+				4AD9D4731FBE8FC600B5E12C /* Karam Govens.jpg in Resources */,
 				4A55FDE71FBA4D1D00B058D7 /* Adrionna Dull.jpg in Resources */,
 				4ABCF54C1FBA583800825564 /* Imahni Russell.jpg in Resources */,
 				4A55FDEC1FBA4D1D00B058D7 /* Jeffrey Reynolds.jpg in Resources */,
@@ -260,6 +271,7 @@
 				4A7759EC1E91EC0500A332FB /* Main.storyboard in Resources */,
 				4A55FDEA1FBA4D1D00B058D7 /* Elias Russell.jpg in Resources */,
 				4A55FDE81FBA4D1D00B058D7 /* Angella Russel.jpg in Resources */,
+				4AD9D4711FBE8FBF00B5E12C /* Jeffrey Reynolds.jpg in Resources */,
 				4A55FDED1FBA4D1D00B058D7 /* Elyana Russell.jpg in Resources */,
 				4A55FDEB1FBA4D1D00B058D7 /* Machaela Hardie.jpg in Resources */,
 				4A55FDEE1FBA4D1D00B058D7 /* Mariamu William.jpg in Resources */,

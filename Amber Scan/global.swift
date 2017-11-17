@@ -63,17 +63,17 @@ class Main {
         self.currentAlert = 0
         
         
-        self.missingKids = [ "Angella Russel", "Elyana Russell", "Elias Russell", "Imahni Russell", "Adrionna Dull", "Robin Strother", "Zhi Ying Zhen", "Earl Wilson", "Tyrese Hill", "Machaela Hardie", "Jeffrey Reynolds",  "Mariamu William",  ]
-        self.missingSince = ["Jul 4, 2017", "Jul 4, 2017", "Jul 4, 2017", "Jul 4, 2017","Aug 5, 2017","Aug 8, 2017","Aug 21, 2017","Sep 14, 2017","Sep 19, 2017","Sep 25, 2017","Sep 27, 2017", "Sep 28, 2017"]
-        self.missingFrom = ["Washoe Valley, NV", "Washoe Valley, NV", "Washoe Valley, NV", "Washoe Valley, NV","Hohenwald, TN","Kansas City, MO","San Francisco, CA","Dolton, IL","South Holland, IL","Richmond, VA" ,"Columbus, OH" , "Philadelphia, PA"]
-        self.dob = ["Jul 27, 2001", "Apr 22, 2004", "Apr 22, 2004","Oct 4, 2007","Nov 10, 2000","Apr 21, 2003","Aug 4, 2001","Oct 3, 2002","Oct 22, 2002","Jul 7, 2001","Oct 7, 2002", "Jul 29, 2001"]
-        self.ageNow = ["16", "13", "13", "10","17","14","16","15","15","16","15", "16"]
-        self.sex = ["Female", "Female", "Male", "Male","Female","Male","Female","Male","Male","Female","Male", "Female"]
-        self.race = ["Biracial", "Biracial", "Biracial", "Biracial","Biracial","Black","Asian","Black","Black","White","White", "Black"]
-        self.hairColor = ["Brown", "Brown", "Brown", "Brown","Black","Black","Black","Black","Black","Brown","Brown", "Black"]
-        self.eyeColor = ["Brown", "Hazel", "Hazel", "Hazel","Brown","Brown","Black","Brown","Black","Brown","Brown", "Brown"]
-        self.height = ["5'4", "5'2", "5'5", "4'0","5'8","5'3","5'4","5'7","5'7","5'5","5'7", "5'1"]
-        self.weight = ["120 lbs","100 lbs", "100 lbs", "60 lbs","130","120","150","150","160","200","124", "127"]
+        self.missingKids = [ "Angella Russel", "Elyana Russell", "Elias Russell", "Imahni Russell", "Adrionna Dull", "Robin Strother", "Zhi Ying Zhen", "Earl Wilson", "Tyrese Hill", "Machaela Hardie", "Jeffrey Reynolds",  "Mariamu William", "Jeffrey Reynolds", "Karam Govens", "Nidia Balderrama" ]
+        self.missingSince = ["Jul 4, 2017", "Jul 4, 2017", "Jul 4, 2017", "Jul 4, 2017","Aug 5, 2017","Aug 8, 2017","Aug 21, 2017","Sep 14, 2017","Sep 19, 2017","Sep 25, 2017","Sep 27, 2017", "Sep 28, 2017", "Sep 27, 2017", "Sep 22, 2017", "Oct 6, 2017"]
+        self.missingFrom = ["Washoe Valley, NV", "Washoe Valley, NV", "Washoe Valley, NV", "Washoe Valley, NV","Hohenwald, TN","Kansas City, MO","San Francisco, CA","Dolton, IL","South Holland, IL","Richmond, VA" ,"Columbus, OH" , "Philadelphia, PA", "Columbus, OH", "Port Saint Lucie, FL", "Kansas City, KS"]
+        self.dob = ["Jul 27, 2001", "Apr 22, 2004", "Apr 22, 2004","Oct 4, 2007","Nov 10, 2000","Apr 21, 2003","Aug 4, 2001","Oct 3, 2002","Oct 22, 2002","Jul 7, 2001","Oct 7, 2002", "Jul 29, 2001", "Oct 7, 2002", "Aug 5, 2009", "Jun 10, 2001"]
+        self.ageNow = ["16", "13", "13", "10","17","14","16","15","15","16","15", "16", "15", "8", "16"]
+        self.sex = ["Female", "Female", "Male", "Male","Female","Male","Female","Male","Male","Female","Male", "Female", "Male", "Male", "Female"]
+        self.race = ["Biracial", "Biracial", "Biracial", "Biracial","Biracial","Black","Asian","Black","Black","White","White", "Black" ,"White", "Black", "Hispanic"]
+        self.hairColor = ["Brown", "Brown", "Brown", "Brown","Black","Black","Black","Black","Black","Brown","Brown", "Black", "Brown", "Black", "Black"]
+        self.eyeColor = ["Brown", "Hazel", "Hazel", "Hazel","Brown","Brown","Black","Brown","Black","Brown","Brown", "Brown", "Brown", "Black", "Brown"]
+        self.height = ["5'4", "5'2", "5'5", "4'0","5'8","5'3","5'4","5'7","5'7","5'5","5'7", "5'1", "5'7", "5'0", "5'0"]
+        self.weight = ["120 lbs","100 lbs", "100 lbs", "60 lbs","130","120","150","150","160","200","124", "127", "124", "60", "150"]
         self.notes = ["Angelina, Elyana, Elias and Imahni may be with their mother. They are biracial. The children are Hispanic and White.",
                               "Angelina, Elyana, Elias and Imahni may be with their mother. They are biracial. The children are Hispanic and White.",
                               "Angelina, Elyana, Elias and Imahni may be with their mother. They are biracial. The children are Hispanic and White.",
@@ -83,7 +83,11 @@ class Main {
                               "Earl may be in the company of an adult female. They may travel to Chicago, Illinois.",
                               "Tyrese may travel to Harvey, Illinois.",
                               "She may be in the company of her mother. When Machaela was last seen, her hair was dyed red. CAUTION ADVISED: If located, do not approach and immediately contact law enforcement.",
-                              "He may still be in the local area or he may travel to Texas.", "Mariamu may still be in the local area or she may travel to Darby, Pennsylvania. She has multiple tattoos"]
+                              "He may still be in the local area or he may travel to Texas.", "Mariamu may still be in the local area or she may travel to Darby, Pennsylvania. She has multiple tattoos",
+                              "Jeffrey was last seen on September 27, 2017. He may still be in the local area or he may travel to Texas.",
+                              "Karam was last seen at home on September 22, 2017. He may be in the company of his mother, Georgia Brown.",
+                              "Both photos shown are of Nidia. She may still be in the local area or she may travel to Kansas City, Missouri. Nidia's lip is pierced."
+        ]
         
         
         

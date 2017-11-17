@@ -708,6 +708,9 @@ ha7001@uncw.edu </string>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6j-kZ-BR5">
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
                                                     <connections>
                                                         <action selector="childSelectionButton:" destination="kgf-xg-tRs" eventType="touchUpInside" id="05B-i6-srt"/>
                                                     </connections>
@@ -1367,7 +1370,7 @@ ha7001@uncw.edu </string>
         <image name="ASWhiteTextLogo" width="800" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ngZ-Da-r4N"/>
+        <segue reference="1bm-by-YK9"/>
         <segue reference="gef-d5-7UU"/>
         <segue reference="Eus-YS-ax1"/>
     </inferredMetricsTieBreakers>

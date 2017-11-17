@@ -21,7 +21,8 @@ class ReportASightingViewController: UIViewController, CLLocationManagerDelegate
     var contact_spotting  : String = String()
     var spottingID : String = String()
     var subjectName: String = String()
-    var latLongCoord: String = String()
+    var geoCoord: String = String()
+    var latLongCoord: CLLocationCoordinate2D = CLLocationCoordinate2D()
 
     @IBOutlet weak var s_Name: UITextField?
     @IBOutlet var s_Street: UITextField!
@@ -63,7 +64,7 @@ class ReportASightingViewController: UIViewController, CLLocationManagerDelegate
         if let location = locations.first {
             print("The Location system's current coordinates.")
             print(location.coordinate)
-            self.latLongCoord = String(describing: location.coordinate)
+            self.latLongCoord = location.coordinate
         }
     }
     
@@ -71,39 +72,47 @@ class ReportASightingViewController: UIViewController, CLLocationManagerDelegate
     @IBAction func SubmitSighting(_ sender: Any) {
         
         //Retreive Data from text Fields
-        name_spotting = s_Name?.text ?? ""
-        street_spotting = s_Street?.text ?? ""
-        city_spotting = s_City?.text ?? ""
-        zipcode_spotting = s_Zip?.text ?? ""
-        contact_spotting = s_Contact?.text ?? ""
-        subjectName = globalData.spottedChildName
+        name_spotting = String(s_Name?.text ?? "NULL")
+        street_spotting = String(s_Street?.text ?? "NULL")
+        city_spotting = String(s_City?.text ?? "NULL")
+        zipcode_spotting = String(s_Zip?.text ?? " ")
+        contact_spotting = String(s_Contact?.text ?? " ")
+        subjectName = String(globalData.spottedChildName)
+        geoCoord = "Lat: " + String(self.latLongCoord.latitude) + ", Long:" + String(self.latLongCoord.longitude)
         
         //Construct Data Packet to send to API
-//        let dataPacket = ["name" : name_spotting,
-//                                  "street":street_spotting,
-//                                  "city":city_spotting,
-//                                  "zip":zipcode_spotting,
-//                                  "contact":contact_spotting,
-//                                  "missingChildName":subjectName,
-//                                  "submissionCoordinates":self.latLongCoord]
+        let dataPacket = ["name" : "Amber Scan",
+                          "street":"123 Candy Cane Lane",
+                          "city":"North Pole",
+                          "zip":"11111",
+                          "contact":"9995555555"]
+        
+        let dataPacket2 = ["name" : name_spotting,
+                                  "street":street_spotting,
+                                  "city":city_spotting,
+                                  "zip":zipcode_spotting,
+                                  "contact":contact_spotting,
+                                  "missingChildName":subjectName,
+                                  "submissionCoordinates":geoCoord]
+        print("Data Packet 1: \n")
+        print(dataPacket)
+        print("Data Packet 1: \n")
+        print(dataPacket2)
+        
+
+            //KNOWN working
 //        let dataPacket = ["name" : "Amber Scan",
 //                          "street":"123 Candy Cane Lane",
 //                          "city":"North Pole",
 //                          "zip":"11111",
 //                          "contact":"9995555555"]
+
         
-        //Construct Data Packet to send to API
-        let dataPacket = ["name":String(name_spotting),
-                          "street":String(street_spotting),
-                          "city":String(city_spotting),
-                          "zip":String(zipcode_spotting),
-                          "contact":String(contact_spotting)]
-        
-        print("DATA PACKET --------------- --------------- ")
-        print(dataPacket)
+        //print("DATA PACKET --------------- --------------- ")
+        //print(dataPacket)
         
         // TODO Need to encapsulate this code with a delegate to move the user onto the next screen while the spotting is being sent off in the background.
-        spottingID = communications.submitSpotting(data: dataPacket)
+        spottingID = communications.submitSpotting(data: dataPacket2)
         
         //Take the spotting id and keep it as a class variable.
         print("\n The spotting id returned is: \(spottingID) \n ")

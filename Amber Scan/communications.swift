@@ -101,6 +101,7 @@ class communications: UIViewController {
     //Submit spotting data to API
     class func submitSpotting ( data:[String:Any]) -> String
     {
+    
         var spottingID = ""
         let submissionData = data
         //Create a string to hold the api address, guard checks to make sure the URL is valid.
@@ -109,7 +110,7 @@ class communications: UIViewController {
             print("Error 4: cannot create URL: Invalid URL")
             return "4000"
         }
-        
+        print(versionURL)
         //Setup URL Request
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "POST"
@@ -124,6 +125,7 @@ class communications: UIViewController {
             print("Error: cannot create JSON from spotting")
             return "Error 3 : Could not create JSON packet"
         }
+        
         
         // Call the URLSession library to perform the post request to webserver
         let session = URLSession.shared
@@ -160,7 +162,8 @@ class communications: UIViewController {
                     //print("The ID is: \(spottingID)")
              }
              catch  {
-                print("error parsing response from POST on /debug")
+                print("error parsing response from POST on /debug, data receieved: ")
+                print(responseData.description)
                 return
              }
         }

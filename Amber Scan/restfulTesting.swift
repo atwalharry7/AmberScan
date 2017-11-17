@@ -26,8 +26,8 @@ class restfulTesting: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = globalData.backgroundColor
         // Do any additional setup after loading the view.
-        print("Loaded Restful testing module")
-        print("The global api address is: \(globalData.apiAddress)")
+        //print("Loaded Restful testing module")
+        //print("The global api address is: \(globalData.apiAddress)")
         
         
         //Testing API RESTful requesting
